@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.firstnav{
+    background-color: rgb(26, 63, 26);
+    height: 50px;
+    text-align: center;
+    position: relative;
+}
+
+.firstnav p{
+    padding-top: 10px;
+    font-size: 15px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.secondnav{
+    background-color: white;
+    display: flex;
+}
+
+.sticky{
+    position: sticky;
+    top: 0px;
+}
+
+.thirdnav{
+    background-color: silver;
+}
+
+.thirdnav p a{
+    margin-left: 50%;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+.main{
+    height: 300px;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 50px;
+}
+.main1, .main2{
+    display: flex;
+}
+.flex2 , .other{
+    background-color: rgba(245, 245, 245, 0.918);
+    padding-top: 20px;
+}
+
+
+.on{
+    padding-left: 30px;
+}
+.on a{
+    text-decoration: none;
+    color: black
+}
+
+.main1,  p a{
+    text-decoration: none;
+    color: black;
+    font-style: bold;
+    padding: 10px;
+    font-size: 20px;
+}
+.main1 p{
+    color: silver;
+    
+}
+.other p{
+    color: silver;
+}
+
+.other a{
+    text-decoration: none;
+    color: black;
+}
+.other{
+    padding-left: 30px;
+}
+
+.conclusion{
+    display: flex;
+    gap: 70px;
+    list-style: none;
+    background-color: rgb(26, 63, 26);
+    color: white;
+}
+.products{
+    padding: 10px;
+    list-style-type: none;
+    display: inline;
+}
+.about{
+    list-style-type: none;
+}
